@@ -1,0 +1,101 @@
+body{
+padding: 0px;
+margin: 0px;
+background-color: #000000;
+}
+
+nav{
+justify-content: center;
+display: flex;
+padding: 10px;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    font-size: 52px;
+    text-transform:uppercase;
+    color:#c5c5c5;
+    font-family: sans-serif;
+    line-height: 5px;
+}
+
+h2{
+font-size: 20px;
+text-transform: uppercase;
+color: #667;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 3px;
+}
+
+.NinetysBtn {
+    display: inline-block;
+    padding: 1px 2px;
+    background-color: #c0c0c0; /* Windows 95 gray */
+    color: rgba(5, 43, 255); /* textcolor*/
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    border: 1px solid #808080; /* Dark gray border */
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(168, 179, 241, 0.499); /* Shadow effect */
+}
+
+.NinetysBtn:hover {
+    background-color: #d3d3d3; /* Lighter gray on hover */
+}
+
+article{
+    /* background-color: blueviolet; */
+    width: 96%;
+    padding: 1%;
+    margin: 0 auto;
+    color: #808080;
+}
+
+img{
+    /* responsive image */
+    width: 100%;
+    height: auto;
+}
+
+p{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+.credits{
+    font-size: 10px;
+    line-height: 20px;
+    font-family: sans-serif;
+    text-transform:uppercase;
+}
+
+#intro-text{
+       /* background-color: blueviolet; */
+       width: 70%;
+       height: 100vh;
+       text-align: center;
+       top: 150px;
+       position: relative;
+       margin: 0 auto;
+       padding: 1%;
+       margin: 0 auto;
+       color: #808080;
+       /* display: none; */
+}
+
+footer{
+    /* background-color: rgb(164, 164, 251); */
+    margin: 10 auto;
+    text-align: center;
+    color: rgb(140, 140, 140);
+    padding: 1%;
+    bottom: 0px;
+position: sticky;
+}
