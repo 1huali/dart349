@@ -79,9 +79,9 @@ p{
 #intro-text{
        /* background-color: blueviolet; */
        width: 70%;
-       height: 100vh;
+       height: 66vh;
        text-align: center;
-       top: 150px;
+       top: 50px;
        position: relative;
        margin: 0 auto;
        padding: 1%;
