@@ -7,7 +7,11 @@ background-color: #000000;
 nav{
 justify-content: center;
 display: flex;
-padding: 10px;
+padding: 7px;
+position: fixed;
+background-color: #000000;
+width: 100%;
+height: max-content;
 }
 
 header{
@@ -88,6 +92,12 @@ p{
        margin: 0 auto;
        color: #808080;
        /* display: none; */
+}
+
+.controller{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 footer{
