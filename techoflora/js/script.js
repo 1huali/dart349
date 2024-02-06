@@ -23,21 +23,32 @@ window.onload = (event) => {
     });
 
     // CONTROLLER PLAYER BUTTON: 
-    let rightarrow = document.querySelector(".rightarrow-button");
-
-rightarrow.addEventListener("click", function(){
-    console.log("clickedRIte");
+let rightButton= document.querySelector(".rightarrow");
+let leftButton= document.querySelector(".leftarrow");
+rightButton.addEventListener("click", function(){
+    console.log("hello");
+});
+leftButton.addEventListener("click", function(){
+    console.log("hello");
 });
 
 //full screen option button : 
-    let elem = document.getElementsByClassName("myimage");
+let elem= document.querySelector(".myimage");
 
-    // document.getElementsByClassName("fullscreen-button").addEventListener("click", openFullscreen)
+let fullscreenButton = document.querySelector(".fullscreen-button");
 
-// document.getElementsByClassName("fullscreen-button").addEventListener("click", function(){
+
+fullscreenButton.addEventListener("click", function(){
     // openFullscreen();
-    // console.log("clicekd")
-// });
+    console.log("clicekd")
+      if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+});
 
 //     function openFullscreen() {
 //   if (elem.requestFullscreen) {

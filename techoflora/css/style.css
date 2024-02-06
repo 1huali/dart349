@@ -12,10 +12,14 @@ position: fixed;
 background-color: #000000;
 width: 100%;
 height: max-content;
+top: 0px;
 }
 
 header{
     text-align: center;
+    height: 5vh;
+    position: relative;
+    top: 7vh;
 }
 h1{
     font-size: 52px;
@@ -23,6 +27,7 @@ h1{
     color:#c5c5c5;
     font-family: sans-serif;
     line-height: 5px;
+    /* height: 5vh; */
 }
 
 h2{
@@ -36,8 +41,8 @@ line-height: 3px;
 .NinetysBtn {
     display: inline-block;
     padding: 1px 2px;
-    background-color: #c0c0c0; /* Windows 95 gray */
-    color: rgba(5, 43, 255); /* textcolor*/
+    background-color: #000000; /* Windows 95 gray */
+    color: rgb(204, 205, 210); 
     font-family: 'Arial', sans-serif;
     font-size: 14px;
     border: 1px solid #808080; /* Dark gray border */
@@ -46,7 +51,7 @@ line-height: 3px;
     text-decoration: none;
     transition: all 0.3s ease;
     margin: 5px;
-    box-shadow: 0 4px 8px rgba(168, 179, 241, 0.499); /* Shadow effect */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.499); /* Shadow effect */
 }
 
 .NinetysBtn:hover {
@@ -83,7 +88,7 @@ p{
 #intro-text{
        /* background-color: blueviolet; */
        width: 70%;
-       height: 66vh;
+       height: 80vh;
        text-align: center;
        top: 50px;
        position: relative;
@@ -97,6 +102,7 @@ p{
 .controller{
     display: flex;
     margin: 0 auto;
+    /* padding: 1%; */
     justify-content: center;
 }
 
@@ -105,7 +111,7 @@ footer{
     margin: 10 auto;
     text-align: center;
     color: rgb(140, 140, 140);
-    padding: 1%;
+    /* padding: 1%; */
     bottom: 0px;
 position: sticky;
 }
