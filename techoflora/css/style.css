@@ -4,6 +4,10 @@ margin: 0px;
 background-color: #000000;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 nav{
 justify-content: center;
 display: flex;
@@ -14,6 +18,8 @@ width: 100%;
 height: max-content;
 top: 0px;
 }
+
+
 
 header{
     text-align: center;
