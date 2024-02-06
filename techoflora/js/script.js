@@ -25,6 +25,7 @@ window.onload = (event) => {
     // CONTROLLER PLAYER BUTTON: 
 let rightButton= document.querySelector(".rightarrow");
 let leftButton= document.querySelector(".leftarrow");
+
 rightButton.addEventListener("click", function(){
     console.log("hello");
 });
@@ -39,8 +40,6 @@ let fullscreenButton = document.querySelector(".fullscreen-button");
 
 
 fullscreenButton.addEventListener("click", function(){
-    // openFullscreen();
-    console.log("clicekd")
       if (elem.requestFullscreen) {
     elem.requestFullscreen();
   } else if (elem.webkitRequestFullscreen) { /* Safari */
@@ -49,16 +48,6 @@ fullscreenButton.addEventListener("click", function(){
     elem.msRequestFullscreen();
   }
 });
-
-//     function openFullscreen() {
-//   if (elem.requestFullscreen) {
-//     elem.requestFullscreen();
-//   } else if (elem.webkitRequestFullscreen) { /* Safari */
-//     elem.webkitRequestFullscreen();
-//   } else if (elem.msRequestFullscreen) { /* IE11 */
-//     elem.msRequestFullscreen();
-//   }
-// }
 
 
 } //end onLoad
