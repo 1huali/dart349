@@ -1,0 +1,151 @@
+body{
+padding: 0px;
+margin: 0px;
+/* background-color: #ffffff; */
+background-size: cover;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.99) 35%, rgba(225, 225, 205, 0.635)),
+                  url("../assets/images/ballad-of-mulan-song-dynasty-mu-fu.png");
+ /* opacity: 0.5; Adjust the opacity value as needed (0.0 to 1.0) */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav{
+justify-content: center;
+display: flex;
+padding: 7px;
+position: fixed;
+/* background-color: #ffffff; */
+width: 100%;
+height: max-content;
+top: 0px;
+}
+
+
+
+header{
+    text-align: center;
+    height: 5vh;
+    position: relative;
+    top: 7vh;
+}
+h1{
+    font-size: 52px;
+    text-transform:uppercase;
+    color:#c5c5c5;
+    font-family: sans-serif;
+    /* line-height: 5px; */
+    /* height: 5vh; */
+}
+
+h2{
+font-size: 20px;
+text-transform: uppercase;
+color: #667;
+font-family: Georgia, 'Times New Roman', Times, serif;
+/* line-height: 3px; */
+}
+
+.NinetysBtn {
+    display: inline-block;
+    padding: 1px 2px;
+    background-color: #ffffff; /* Windows 95 gray */
+    color: rgba(0, 0, 0, 0.806); 
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    border: 1px solid #808080; /* Dark gray border */
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.499); /* Shadow effect */
+}
+
+.NinetysBtn:hover {
+    background-color: #d3d3d3; /* Lighter gray on hover */
+}
+
+article{
+    /* background-color: blueviolet; */
+    width: 96%;
+    padding-top: 2%;
+    margin: 0 auto;
+    color: #808080;
+}
+
+/* a:hover {
+    color: rgb(115, 115, 115);
+  }   */
+
+img{
+    /* responsive image */
+    width: 90%;
+    height: auto;
+}
+
+p{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+.credits{
+    font-size: 10px;
+    line-height: 20px;
+    font-family: sans-serif;
+    text-transform:uppercase;
+}
+
+#intro-text{
+       /* background-color: blueviolet; */
+       width: 70%;
+       height: 60vh;
+       text-align: center;
+       top: 100px;
+       position: relative;
+       margin: 0 auto;
+       padding: 1%;
+       margin: 0 auto;
+       color: #808080;
+       /* display: none; */
+}
+
+#text-heart{
+    display: block;
+}
+
+#text-rational{
+    display: none;
+}
+
+.controller{
+    display: flex;
+    margin: 0 auto;
+    /* padding: 1%; */
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    bottom: 10px; 
+    color: rgb(140, 140, 140);
+  }
+
+#idea-container{
+    top: 10vh;
+    position: relative;
+    column-count: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#letterIcon{
+width:7%;
+height: auto;
+}

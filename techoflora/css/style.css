@@ -72,6 +72,10 @@ article{
     color: #808080;
 }
 
+/* a:hover {
+    color: rgb(115, 115, 115);
+  }   */
+
 img{
     /* responsive image */
     width: 100%;
@@ -119,5 +123,5 @@ footer{
     color: rgb(140, 140, 140);
     padding: 1%;
     bottom: 0px;
-position: sticky;
+    position: sticky;
 }
