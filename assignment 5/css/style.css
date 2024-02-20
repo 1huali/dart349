@@ -25,14 +25,42 @@ footer{
 .fullPage-container{
     display: flex;
     width: 100vw;
-    overflow: scroll;
     height: 100vh;
+    overflow: scroll;
 }
 
 .halfPage-container{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    justify-content: center;
+}
+
+.sixtyOne-containerH{
+    display: flex;
+    flex-wrap: wrap;
+    width: 61%;
+    justify-content: center;
+}
+
+.thirtyNine-containerH{
+    display: flex;
+    flex-wrap: wrap;
+    width: 39%;
+    justify-content: center;
+}
+
+.sixtyOne-containerV{
+    display: flex;
+    flex-wrap: wrap;
+    height: 61%;
+    justify-content: center;
+}
+
+.thirtyNine-containerV{
+    display: flex;
+    flex-wrap: wrap;
+    height: 39%;
     justify-content: center;
 }
 
