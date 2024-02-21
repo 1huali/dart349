@@ -1,6 +1,7 @@
 body{
-    background-image: url(../assets/images/clown.png);
+    /* background-image: url(../assets/images/clown.png); */
     height: 100vh;
+    /* background-color: aliceblue; */
 }
 nav{
     top:0vh;
@@ -9,12 +10,6 @@ nav{
     justify-content: center;
 }
 
-/* footer{
-    top:95vh;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-} */
 footer{
     bottom:0vh;
     position: sticky;
@@ -27,6 +22,7 @@ footer{
     width: 100vw;
     height: 100vh;
     overflow: scroll;
+    background-color: blue;
 }
 
 .halfPage-container{
@@ -41,36 +37,52 @@ footer{
     flex-wrap: wrap;
     width: 61%;
     justify-content: center;
+    /* background-color: rgb(88, 63, 25); */
 }
 
 .thirtyNine-containerH{
     display: flex;
     flex-wrap: wrap;
     width: 39%;
+    height: 61%;
     justify-content: center;
+    /* background-color: blanchedalmond; */
 }
 
 .sixtyOne-containerV{
     display: flex;
     flex-wrap: wrap;
     height: 61%;
+    width: 61%;
     justify-content: center;
 }
 
 .thirtyNine-containerV{
     display: flex;
+    position:absolute;
     flex-wrap: wrap;
     height: 39%;
+    width: 39%;
     justify-content: center;
+    /* background-color: blueviolet; */
+    bottom: -26px; 
+    /* WHY??? */
+}
+
+#goldenRatio-container{
+    display: none;
+}
+
+#cartesian-container{
+    display: block;
 }
 
 .quarterPage-container{
     display: flex;
     width: 20%;
-    margin: 1%;
-    /* background-color: blueviolet; */
+    height: 20%;
+    /* margin: 1%; */
     background-image: url(../assets/images/clown.png);
-
 }
 
 .tenth-container{
@@ -83,8 +95,3 @@ footer{
     width: 1%;
 }
 
-.container{
-    background-color: blue;
-    width: 10vw;
-    height: 20vh;
-}
