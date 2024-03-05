@@ -1,0 +1,9 @@
+footer{
+    /* background-color: rgb(164, 164, 251); */
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(140, 140, 140);
+    padding: 1%;
+    bottom: 0px;
+    position: sticky;
+}
