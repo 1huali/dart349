@@ -25,7 +25,7 @@
   }
 
   #main-div a:link{
-    color: darkturquoise;
+    color: rgb(68, 70, 70);
     background-color: white;
     padding: 0.3em;
     flex-grow: 1;
@@ -33,19 +33,20 @@
       }
 
       #main-div a:visited{
-        color: rgb(220, 141, 13);
+        color: rgb(88, 77, 77);
     padding: 0.3em;
       }
     
       #main-div a:hover{
-        color: blueviolet;
+        color: rgb(223, 223, 223);
+        /* background-color: black; */
         /* flex-grow: 2; */
       }
 
       #sub-nav{
         position: fixed;
         width: 50%;
-        color: darkturquoise;
+        color: rgb(68, 70, 70);
         /* border: solid 1px red; */
         background-color: rgb(255, 255, 255);
         top: 1.8em;
@@ -57,7 +58,7 @@
       }
 
       #sub-nav a:link{
-        color: darkturquoise;
+        color: rgb(68, 70, 70);
         background-color: white;
         padding: 0.3em;
         flex-grow: 0.2;
@@ -65,13 +66,13 @@
           }
     
         #sub-nav a:visited{
-            color: rgb(220, 141, 13);
+          color: rgb(77, 77, 88);
         padding: 0.3em;
           }
         
         #sub-nav a:hover{
-            color: blueviolet;
-            /* flex-grow: 2; */
+          color: rgb(223, 223, 223);
+          /* flex-grow: 2; */
           }
 
       .sticker-container {
@@ -116,7 +117,7 @@
       footer{
         position: fixed;
         width: 50%;
-        color: darkturquoise;
+        color: rgb(77, 77, 88);
         font-size: 13px;
         /* border: solid 1px red; */
         background-color: rgb(255, 255, 255);
