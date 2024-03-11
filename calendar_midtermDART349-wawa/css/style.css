@@ -27,6 +27,7 @@
   #main-div a:link{
     color: rgb(68, 70, 70);
     background-color: white;
+    text-decoration: none;
     padding: 0.3em;
     flex-grow: 1;
     transition: all 0.2s;
@@ -35,11 +36,14 @@
       #main-div a:visited{
         color: rgb(88, 77, 77);
     padding: 0.3em;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
       }
     
       #main-div a:hover{
         color: rgb(223, 223, 223);
-        /* background-color: black; */
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: double;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
         /* flex-grow: 2; */
       }
 
@@ -63,15 +67,20 @@
         padding: 0.3em;
         flex-grow: 0.2;
         transition: all 0.2s;
+        text-decoration: none;
           }
     
         #sub-nav a:visited{
           color: rgb(77, 77, 88);
         padding: 0.3em;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
           }
         
         #sub-nav a:hover{
           color: rgb(223, 223, 223);
+          font-family: sans-serif;
+          /* text-decoration:underline; */
+          text-shadow: 1px 1px 1px rgb(0, 0, 0);
           /* flex-grow: 2; */
           }
 
