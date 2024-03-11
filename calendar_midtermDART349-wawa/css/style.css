@@ -1,11 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: calc(15px + 0.390625vw);
+    line-height: 120%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+  }
+
 #main-div{
     position: fixed;
     /* border: solid 1px red; */
     width: 100%;
     top: 0px;
     left: 0px;
+    padding-left: 1em;
     display: flex;
-    justify-content:center;
+    justify-content: space-between;
     z-index: 1;
   }
 
@@ -29,21 +44,40 @@
 
       #sub-nav{
         position: fixed;
-        width: 100%;
+        width: 50%;
         color: darkturquoise;
         /* border: solid 1px red; */
-        background-color: white;
-        padding: 1.1em;
-        display: block;
-        /* TEMPORAIRE PADDING THING (??HOW TO HAVE A SUB-MENU like) */
+        background-color: rgb(255, 255, 255);
+        top: 1.8em;
+        padding-left: 2em;
+        display: block flex;
         flex-grow: 1;
         transition: all 0.2s;
+        z-index: 3;
       }
+
+      #sub-nav a:link{
+        color: darkturquoise;
+        background-color: white;
+        padding: 0.3em;
+        flex-grow: 0.2;
+        transition: all 0.2s;
+          }
+    
+        #sub-nav a:visited{
+            color: rgb(220, 141, 13);
+        padding: 0.3em;
+          }
+        
+        #sub-nav a:hover{
+            color: blueviolet;
+            /* flex-grow: 2; */
+          }
 
       .sticker-container {
         display:flex;
         justify-content: flex-start;
-        align-items: baseline;
+        align-items:start;
         margin: 2rem ;
         padding-top: 3rem;
         /* border:solid 1px red; */
@@ -53,4 +87,49 @@
         position: sticky;
         top:3rem;
         flex:1;
+      }
+
+      hgroup {
+        /* border: solid 1px black; */
+        padding: 2rem;
+        text-align: right;
+      }
+      
+      h1 {
+        font-size: 7rem;
+        margin: 0;
+        line-height: 100%;
+      }
+      
+      h2 {
+        font-size: 2rem;
+        font-style: italic;
+      }
+      
+      article {
+        /* border:solid 1px red; */
+        font-size: 1rem;
+        flex:1;
+        z-index: 100;
+      }
+
+      footer{
+        position: fixed;
+        width: 50%;
+        color: darkturquoise;
+        font-size: 13px;
+        /* border: solid 1px red; */
+        background-color: rgb(255, 255, 255);
+        bottom: 0;
+        padding: 0.3em;
+        display: block flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        transition: all 0.2s;
+        z-index: 3;
+      }
+
+      img{
+        width: 100%;
+        /* background-color: blue; */
       }
