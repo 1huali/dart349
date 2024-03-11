@@ -1,9 +1,56 @@
-footer{
-    /* background-color: rgb(164, 164, 251); */
-    margin: 0 auto;
-    text-align: center;
-    color: rgb(140, 140, 140);
-    padding: 1%;
-    bottom: 0px;
-    position: sticky;
-}
+#main-div{
+    position: fixed;
+    /* border: solid 1px red; */
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content:center;
+    z-index: 1;
+  }
+
+  #main-div a:link{
+    color: darkturquoise;
+    background-color: white;
+    padding: 0.3em;
+    flex-grow: 1;
+    transition: all 0.2s;
+      }
+
+      #main-div a:visited{
+        color: rgb(220, 141, 13);
+    padding: 0.3em;
+      }
+    
+      #main-div a:hover{
+        color: blueviolet;
+        /* flex-grow: 2; */
+      }
+
+      #sub-nav{
+        position: fixed;
+        width: 100%;
+        color: darkturquoise;
+        /* border: solid 1px red; */
+        background-color: white;
+        padding: 1.1em;
+        display: block;
+        /* TEMPORAIRE PADDING THING (??HOW TO HAVE A SUB-MENU like) */
+        flex-grow: 1;
+        transition: all 0.2s;
+      }
+
+      .sticker-container {
+        display:flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin: 2rem ;
+        padding-top: 3rem;
+        /* border:solid 1px red; */
+      }
+      
+      .stickme {
+        position: sticky;
+        top:3rem;
+        flex:1;
+      }
